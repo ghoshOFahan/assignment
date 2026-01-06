@@ -108,6 +108,8 @@ Content-Type: application/json
 
 **AI PROMPT DESIGN**
 
+**>> EXACT PROMPT BODY**
+
 Write an *${ **tone** }* toned email to *${ **recipient_name** }* with the purpose of *${ **purpose** }*
 
 OUTPUT RULES:
@@ -119,7 +121,14 @@ OUTPUT RULES:
 - 3.Every email body should be within 4 sentences
 - 4.Use a realistic sender's name
 
+**>> PROMPT DESIGN EXPLANATION**
+
+The AI prompt was designed to generate concise, customer-friendly emails based on three inputs: purpose, recipient name, and tone.
+The prompt explicitly instructs the model to include a relevant subject line, maintain a professional tone, avoid suggestions except necessary details, and limit the email body to a maximum of four sentences and also not let the sender's name go empty.
+These constrainsts ensure consistent, realistic and readable email outputs.
+
 ---
+
 
 ## @SAMPLE REQUEST & RESPONSE
 
