@@ -1,0 +1,71 @@
+{
+	"info": {
+		"_postman_id": "195d524f-5303-4df8-8bbd-e3f332d7e4b6",
+		"name": "AI-Powered Email Template Generator Service",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37604627"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"purpose\": \"feedback on the new dashboard user experience\",\r\n  \"recipient_name\": \"Product Team\",\r\n  \"tone\": \"neutral\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/generate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"generate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/generate",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"purpose\": \"general inquiry about available services\",\r\n  \"recipient_name\": \"AWS\",\r\n  \"tone\": \"casual\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/generate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"generate"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
