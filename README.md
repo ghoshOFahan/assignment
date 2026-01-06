@@ -106,7 +106,7 @@ Content-Type: application/json
 
 ---
 
-**AI PROMPT DESIGN**
+## @AI PROMPT DESIGN
 
 **>> EXACT PROMPT BODY**
 
